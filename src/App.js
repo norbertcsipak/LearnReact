@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react'
+import NavBar from './components/Navigation/NavBar';
 
 // function App() {
 //   console.log('Hello from the component...')
@@ -23,19 +24,20 @@ import React from 'react'
 function App() {
   return(
     <div>
-      <h1>Greetings</h1>
-      <Hello message='Hope you are having a lovely day!'/>
+      <NavBar />
+      {/* <h1>Greetings</h1>
+      <Hello message='Hope you are having a lovely day!'/> */}
     </div>
   )
 }
 
-const Hello = (props) => {
-  console.log(props)
-  return(
-    <div>
-      <p>Hello there! {props.message}</p>
-    </div>
-  )
-}
+// const Hello = (props) => {
+//   console.log(props)
+//   return(
+//     <div>
+//       <p>Hello there! {props.message}</p>
+//     </div>
+//   )
+// }
 
 export default App;

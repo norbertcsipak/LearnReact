@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2px 2px 2px 2px;
+  margin-top: 8px;
+}
+
+a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
